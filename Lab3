@@ -1,0 +1,87 @@
+## Temperature check: 
+
+temp_c = input("Enter the current temperature in Celsius?: ")
+
+if(temp_c > 30):
+    print("It's a HOT day!")
+else:
+    print("It's a cool day.")
+
+## Number Comparison:
+
+x = int(input("Enter a number: "))
+y = int(input("Enter a number again: "))
+
+if( x > y ):
+    print(x)
+elif(y > x):
+    print(y)
+else:
+    print("They're both equal!")
+
+## Password Checker:
+
+admin_pass = (csrocks)
+password = input("What is the password?: ")
+
+if(password == admin_pass):
+    print("Access Granted!")
+else:
+    print("Access Denied!")
+
+## Simple Calculator:
+
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+op = input("Enter an operational symbol: ")
+
+if (op == '+'):
+    print(x+y)
+elif (op == '-'):
+    print(x-y)
+elif (op == '*'):
+    print(x*y)
+elif(op == '/'):
+    print(x/y)
+else:
+    print("Enter a proper operational symbol: ")
+
+## Positive Negative OR zero
+
+number = int(input("Enter a number: "))
+
+if (number > 0):
+    print(number + " is a positive number!")
+elif (number < 0):
+    print(number + " is a negative number!")
+elif(number == 0):
+    print("It's zero!")
+else: 
+    print("Error input!")
+
+## Day of the Week
+
+1 = (Sunday)
+2 = (Monday)
+3 = (Tuesday)
+4 = (Wednesday)
+5 = (Thursday)
+6 = (Friday)
+7 = (Saturday)
+chosen_day = input("Enter a number from 1 - 7?")
+
+if (chosen_day == 1):
+    print("It's Sunday!")
+elif(chosen_day == 2):
+    print("It's Monday!")
+elif(chosen_day == 3):
+    print("It's Tuesday!")
+elif(chosen_day == 4):
+    print("It's Wednesday!")
+elif(chosen_day == 5):
+    print("It's Thursday!")
+elif(chosen_day == 6):
+    print("It's Friday!")
+elif(chosen_day == 7):
+    print("It's Saturday!")
+
