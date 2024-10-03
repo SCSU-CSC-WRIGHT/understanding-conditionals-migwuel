@@ -12,19 +12,19 @@ else:
 x = int(input("Enter a number: "))
 y = int(input("Enter a number again: "))
 
-if( x > y ):
+if ( x > y ):
     print(x)
-elif(y > x):
+elif (y > x):
     print(y)
 else:
     print("They're both equal!")
 
 ## Password Checker:
 
-admin_pass = (csrocks)
-password = input("What is the password?: ")
+admin_pass = "csrocks"
+password = input("Enter the admin password?: ")
 
-if(password == admin_pass):
+if password == admin_pass:
     print("Access Granted!")
 else:
     print("Access Denied!")
@@ -41,7 +41,7 @@ elif (op == '-'):
     print(x-y)
 elif (op == '*'):
     print(x*y)
-elif(op == '/'):
+elif (op == '/'):
     print(x/y)
 else:
     print("Enter a proper operational symbol: ")
@@ -54,21 +54,14 @@ if (number > 0):
     print(number + " is a positive number!")
 elif (number < 0):
     print(number + " is a negative number!")
-elif(number == 0):
+elif (number == 0):
     print("It's zero!")
 else: 
     print("Error input!")
 
 ## Day of the Week
 
-1 = (Sunday)
-2 = (Monday)
-3 = (Tuesday)
-4 = (Wednesday)
-5 = (Thursday)
-6 = (Friday)
-7 = (Saturday)
-chosen_day = input("Enter a number from 1 - 7?")
+chosen_day = int(input("Enter a number from 1 - 7?: "))
 
 if (chosen_day == 1):
     print("It's Sunday!")
@@ -84,4 +77,6 @@ elif(chosen_day == 6):
     print("It's Friday!")
 elif(chosen_day == 7):
     print("It's Saturday!")
+else:
+    print("Invalid Input! Please enter a number from 1-7: ")
 
